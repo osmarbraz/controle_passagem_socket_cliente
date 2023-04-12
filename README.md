@@ -1,9 +1,10 @@
 # Aplicação Cliente do Sistema de Controle de Passagem usando Java Socket.
 
-Sistema de Controle de Passagem realiza a consulta e marcação de voo e assento usando Java Sockets.
-O programa servidor controla e mantêm os voos e assentos. 
-O programa cliente realiza consultas e marcações se comunicando com o servidor.
-Entre o cliente e o servidor existe um protocolo de comunicação.
+- Sistema de Controle de Passagem realiza a consulta e marcação de voo e assento usando Java Sockets.
+- O programa servidor controla e mantêm os voos e assentos. 
+- O programa cliente realiza consultas e marcações se comunicando com o servidor.
+- Entre o cliente e o servidor existe um protocolo de comunicação.
+- Use o repositório "socket_servidor_controle_passagem" como o programa servidor.
 
 ## Consulta Voo
 
