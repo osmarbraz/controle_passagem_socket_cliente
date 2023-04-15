@@ -6,4 +6,4 @@ if not exist doc (
 )
 
 echo  *** Documentando projeto ***
-javadoc -author src\*.java -d doc
+javadoc -author src\main\java\*.java -d doc

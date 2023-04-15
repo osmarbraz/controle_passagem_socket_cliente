@@ -1,15 +1,8 @@
 @echo off
 
-if not exist bin (
+if not exist target\classes (
 	call compila.bat
 )
 
-if not exist jar (
-	echo  *** Criando Diretorio jar ***
-	mkdir jar
-)
-
 echo  *** Empacotando projeto ***
-cd bin
-jar cvfe ..\jar\projeto.jar Principal bin/ . 
-cd ..
+jar cvfe .\target\Projeto.jar Principal -C target\classes\ .

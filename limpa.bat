@@ -1,10 +1,10 @@
 @echo off 
 
-if exist bin (
-	echo  *** Apagando Diretorio bin ***
-	rmdir bin /s /q
+if exist target (
+	echo  *** Apagando Diretorio target ***
+	rmdir target /s /q
 ) else (
-	echo  *** Diretorio bin nao existe ***
+	echo  *** Diretorio target nao existe ***
 )
 
 if exist doc (
@@ -12,11 +12,4 @@ if exist doc (
 	rmdir doc /s /q
 ) else (
 	echo  *** Diretorio doc nao existe ***
-)
-
-if exist jar (
-	echo  *** Apagando Diretorio jar ***
-	rmdir jar /s /q
-) else (
-	echo  *** Diretorio jar nao existe ***
 )

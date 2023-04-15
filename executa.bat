@@ -1,6 +1,6 @@
 @echo off
 
-if exist bin (
+if exist target\classes (
 	echo  *** Executando projeto ***
-	java -cp bin Principal
+	java -cp target\classes Principal
 )

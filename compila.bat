@@ -1,9 +1,10 @@
 @echo off
 
-if not exist bin (
-	echo  *** Criando Diretorio bin ***
-	mkdir bin
+if not exist target (
+	echo  *** Criando Diretorio target ***
+	mkdir target	
+	mkdir target\classes
 )
 
 echo  *** Compilando projeto ***
-javac -sourcepath src\main\java -d bin src\main\java\*.java
+javac -sourcepath src\main\java -d target\classes src\main\java\*.java
