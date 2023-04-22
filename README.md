@@ -1,12 +1,14 @@
 # Aplicação Cliente do Sistema de Controle de Passagem usando Java Socket.
 
+## Contextualização
+
 - Sistema de Controle de Passagem realiza a consulta e marcação de voo e assento usando Java Sockets.
 - O programa servidor controla e mantêm os voos e assentos. 
 - O programa cliente realiza consultas e marcações se comunicando com o servidor.
 - Entre o cliente e o servidor existe um protocolo de comunicação.
 - Use o repositório "socket_servidor_controle_passagem" como o programa servidor.
 
-## Consulta Voo
+### Consulta Voo
 
 Para o programa cliente consultar é necessário especificar um protocolo de comunicação com o servidor.
 
@@ -26,7 +28,7 @@ Um exemplo de consulta ao servidor com o texto:
 
 A string é separada por ponto e vírgula, onde o protocolo de comunicação é de consulta "C" do código de voo "A1" e assento "1".
 
-## Marcação Voo
+### Marcação Voo
 
 A marcação envolve mandar o código do voo e assento ao servidor e este marcar como indisponível. 
 
@@ -43,3 +45,8 @@ Um exemplo de marcação de voo ao servidor com o texto:
 - **"M;A1;1"**
 
 Uma string separada por ponto e vírgula, onde a comunicação é de marcação "M" do código de voo "A1" e assento "1".
+
+## Arquivos
+
+- pom.xml - Arquivo de configuração da ferramenta de automação Maven.
+- *.bat - Arquivos de lote(Batch) de console para tarefas compilar, executar, documentar, empacotar e limpar o projeto.
