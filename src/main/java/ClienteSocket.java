@@ -70,7 +70,7 @@ public class ClienteSocket {
         } else {
             //Leitura dos dados marcação do voo
             if (processo == 2) {
-                String voo = JOptionPane.showInputDialog("Marcação:\nDigite o codigo do ");
+                String voo = JOptionPane.showInputDialog("Marcação:\nDigite o codigo do voo");
                 String assento = JOptionPane.showInputDialog("Digite o assento:");
                 //"M" é o prefixo de marcação de voo e assento
                 return "M;" + voo + ";" + assento;
